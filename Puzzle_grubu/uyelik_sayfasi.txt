@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Üyelik Sayfası</title>
+	</head>
+	<body>
+		<font size="4">
+			<form method="post" action="uyelikbasarili.html">
+				<b>
+				Kullanıcı Adı:<input type="text" id="userID"></input>
+				</br></br>
+				Parola:<input type="password" id="passwd"></input>
+				</br></br>
+
+				<label for="username">Ad:</label>
+				<input type="text" id="username"></input>
+				</br></br>
+				<label for="lastname">Soyad:</label>
+				<input type="text" id="passwd"></input>
+
+				</br></br>
+				Lütfen Sınıf Seçiniz:
+				<select name="Sınıflar">
+					<option label="Birinci" value="first"></option>
+					<option label="İkinci" value="second"></option>
+					<option label="Üçüncü" value="third"></option>
+					<option label="Dördüncü" value="fourth"></option>
+				</select>
+				</br></br>
+
+				Yaş aralığınızı belirtiniz:</br></b>
+				<input type="radio" id="yassecimi1" name="ageType">18-20</input>
+				<input type="radio" id="yassecimi2" name="ageType">21-25</input>
+				<input type="radio" id="yassecimi3" name="ageType">26-30</input>
+				<input type="radio" id="yassecimi4" name="ageType">30 üstü</input>
+				</br></br>
+
+				<b>Hobileriniz nelerdir?:</br></b>
+				<input type="checkbox" id="tercih1" name="hobbyType">Müzik</input>
+				<input type="checkbox" id="tercih2" name="hobbyType">Dans</input>
+				<input type="checkbox" id="tercih3" name="hobbyType">Resim</input>
+				<input type="checkbox" id="tercih4" name="hobbyType">Satranç</input>
+				<input type="checkbox" id="tercih5" name="hobbyType">Doğa Sporları</input>
+				<input type="checkbox" id="tercih6" name="hobbyType">Su altı Sporları</input>
+
+				<br><br>
+				<b>Kısaca kendinizi anlatınız:</b>
+				<br>
+				<textarea name="name" rows="8" cols="80"></textarea>
+				<br>
+				<input type="submit" value="Üye Ol"></input>
+				<input type="reset" value="Formu Temizle"></input></br>
+				<button type="submit" formaction="1puzzle-giris-sayfasi.html">Geri Dön</button>
+
+				<h3>Üyeliğiniz başarıyla tamamlanmıştır!</h3>
+			</form>
+		</font>
+	</body>
+</html>
