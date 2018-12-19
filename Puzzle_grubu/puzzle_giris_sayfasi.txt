@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PUZZLE</title>
+    <link rel="shortcut icon" href="logo.png" />
+  </head>
+  <body>
+    <font size="4">
+      <h1>7 No'lu Grubun Tanıtıcı Sayfasına Hoşgeldiniz</h1>
+
+      <p><b>Grup No: </b>7 No'lu Grup</p>
+
+      <p><b>Grup İsmi: </b>Grubumuzun ismi '<b>Puzzle</b>'.<b>
+
+      <p>Grup Logosu: <br/>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</b><img src="logo.png" alt=""></p>
+
+      <p><b>Üyeler:</b></p>
+
+      <ul>
+        <li><a href="duyguodev.html">Birinci Üye</a></li>
+        <li><a href="gulcinodev.html">İkinci Üye</a></li>
+        <li><a href="goksuodev.html">Üçüncü Üye</a></li>
+        <li><a href="belkisodev.html">Dördüncü Üye</a> </li>
+        <br>
+      </ul>
+
+      <form action="gonderildi.aspx" method="post">
+        <p><b>
+          Bize görüş ve önerilerinizi aşağıdaki alanı kullanarak iletebilirsiniz.<br>
+          Üye olmak için <a href="uyeliksayfasi.html">tıklayabilirsiniz</a>.
+        </b>
+        </p>
+        <textarea name="box" rows="8" cols="80"></textarea>
+        <br>
+        <input type="submit" name="" value="Gönder"></input>
+        <input type="reset" name="" value="Formu Temizle"></input>
+      </form>
+
+    </font>
+  </body>
+</html>
