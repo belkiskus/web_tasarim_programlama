@@ -51,8 +51,6 @@
 				<input type="submit" value="Üye Ol"></input>
 				<input type="reset" value="Formu Temizle"></input></br>
 				<button type="submit" formaction="1puzzle-giris-sayfasi.html">Geri Dön</button>
-
-				<h3>Üyeliğiniz başarıyla tamamlanmıştır!</h3>
 			</form>
 		</font>
 	</body>
